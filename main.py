@@ -177,7 +177,7 @@ class HTMLParser:
 
 if __name__ == "__main__":
     # Example usage
-    url = "https://www.nytimes.com/"
+    url = "https://en.wikipedia.org/wiki/George_Washington"
     html_parser = HTMLParser(url)
     result = html_parser.parse_html()
     print(html_parser.score_url())
